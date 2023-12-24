@@ -1,9 +1,9 @@
 #!/bin/bash
 
-resourceGroup="hieulm13-udacity-2"
+resourceGroup="hieulm13-udacity-devops"
 location="eastus"
-azWebApp="hieulmudacitydevops"
-azWebAppPlan="hieulmudacitydevops"
+azWebApp="hieulm13udacitydevops"
+azWebAppPlan="hieulm13udacitydevops"
 azWebAppRuntime="PYTHON:3.8"
 
 az group create -n $resourceGroup -l $location
